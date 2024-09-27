@@ -1,0 +1,31 @@
+Global Variable
+var is how you can define a global variable.
+  This would mean you can access that "var" variable from anywhere in the program
+
+Optional Arguments
+if you have multiple values but only one parameter it will
+  take the first value and ignore the other two than still run (This is vice versa)
+
+You can give a parameter a deafult value while in the () and if it is not given a value outside of that 
+  it will take that value
+
+  funtion example (x, y = 5) {
+
+  }
+
+  or 
+
+  let example (x, y = 5) => {
+
+  }
+
+This value will get overturned from an outside value like...
+
+  let example (x, y = 5) => {
+
+  }
+
+  example(5, 1)
+
+  "y" value would then be 1 because its overuled
+

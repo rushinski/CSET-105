@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS On Page - Lecture 7</title>
+</head>
+<body>
+  <!-- <p>Cat Image: <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaMrKpFCdbgQ3D1Nm9HMnJDdESq8GxBXIUmw&s" alt=""></p> -->
+  <!-- <p>Two</p>
+  <p>Three</p> -->
+  <p id="para" style="color: blue;">Adding Headline</p>
+  <div id="div"></div>
+  <br>
+  <button id="id" onclick="changePara(this)">Click Me</button> <!--  Calls the "changePara" function inside "index.js" -->
+  <br>
+  <br>
+  <!-- <button onclick="deleteH2()">Click Me To Delete</button> -->
+   <label for="">Choose a Car: </label>
+   <select name="cars" id="cars" onchange="changePara(this)"> <!-- makes a drop down -->
+    <option values="Volvo">Volvo</option>
+    <option values="Audi">Audi</option>
+    <option values="Mercedes">Mercedes</option>
+    <option value="BMW">BMW</option>
+   </select>
+  <script src="index.js"></script> <!-- Make sure the script always goes at the end of the body so it can load all the content in the HTML first -->
+</body>
+</html>

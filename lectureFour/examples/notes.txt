@@ -1,0 +1,6 @@
+Notice the parent, child, and sibling relationships. For ex-
+○ Html is the parent of body and head
+○ Body and head are the children of html
+○ Body and head are siblings.
+Notice that there are no cycles in a tree. Also, no siblings are connected directly
+to each other.
